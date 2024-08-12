@@ -1,0 +1,23 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    background-image: url('awan.jpg'); 
+    background-color: #81a7b6; 
+    background-size: cover;
+    background-position: center;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+.bg-foother{
+    height: 10vh;
+    background: #b7d1f0;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 10vh;
+    font-size: 15px;
+}

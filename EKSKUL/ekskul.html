@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ekskul.css">
+    <title>Pendaftaran Ekskul</title>
+</head>
+<body>
+    <img src="logo.jpg" alt="Logo" class="logo"> 
+    <h1>FORMAT PENDAFTARAN EKSKUL</h1>
+
+    <form action="">
+        <fieldset style="margin-bottom: 40px;">
+            <legend>BIODATA</legend>
+            <table for="nama">Nama Lengkap:</table>
+            <input type="text" id="nama" name="nama" value=""><br>
+
+            <label for="kelas">Kelas:</label><br>
+            <select id="kelas"> name="kelas"
+                <option value="XI RPL 1">XI RPL 1</option>
+                <option value="XI RPL 2">XI RPL 2</option>
+            </select></br>
+
+            <table for="tl">Tampat lahir:</table>
+            <input type="text" id="tl" name="tl" value=""><br>
+
+            <table for="tr">Tanggal Lahir:</table>
+            <input type="date" id="tr" name="tr" value=""><br>
+
+            <table for="usia">Usia:</table>
+            <input type="number" min="12" max="20" id="usia" name="usia" value=""><br>
+
+            <table for="jk">Jenis Kelamin:</table>
+            <input type="radio" id="jk" name="jk" value="">
+            <table for="laki-laki">Laki-laki</table>
+            <input type="radio" id="" name="jk" value="">
+            <table for="perempuan">Perempuan</table>
+
+            <label for="agama">Agama:</label><br>
+            <select id="agama"> name="agama"
+                <option value="islam">Islam</option>
+                <option value="kristen protestan">Kristen Protestan</option>
+                <option value="kristen katolik">Kristen katolik</option>
+                <option value="budha">Budha</option>
+                <option value="hindu">Hindu</option>
+                <option value="khonghucu">Khonghucu</option>
+                <option value="penghayat kepercayaan">Penghayat Kepercayaan</option>
+            </select></br>
+        </fieldset>
+    </form>
+
+    <form action="">
+        <fieldset style="margin-bottom: 40px;">
+            <legend>ALAMAT</legend>
+            <label for="al">Alamat Lengkap:</label><br>
+            <textarea name="alamat" rows="5" cols="100 "> 
+            </textarea><br>
+
+            <label for="rt">RT:</label><br> 
+            <input type="text" id="rt" name="rt" value=""><br>
+            <label for="rw">RW:</label><br>
+            <input type="text" id="rw" name="rw" value=""><br> 
+
+            <label for="dk">Desa / Kelurahan:</label><br>
+            <select id="dk"> name="dk"
+                <option value="cd">Cipada</option>
+                <option value="jb">Jambudipa</option>
+                <option value="pa">Padaasih</option>
+                <option value="ph">Pasirhalang</option>
+                <option value="pl">Pasirlangu</option>
+                <option value="tm">Tugumukti</option>
+                <option value="sm">Sidang Mekar</option>
+            </select></br>
+
+            <label for="kc">Kecamatan:</label><br>
+            <select id="kc"> name="kc"
+                <option value="cs">Cisarua</option>
+                <option value="pr">Parongpong</option>
+                <option value="lb">Lembang</option>
+                <option value="np">Ngamprah</option>
+                <option value="pl">Padalarang</option>
+                <option value="cp">Cipatat</option>
+                <option value="cw">Cikalong Wetan</option>
+                <option value="bj">Batujajar</option>
+            </select></br>
+
+            <label for="kk">Kabupaten / Kota:</label><br>
+            <select id="kk"> name="kk"
+                <option value="kbb">Kabupaten Bandung Barat</option>
+                <option value="kb">Kabupaten Bandung</option>
+                <option value="kc">Kabupaten Cianjur</option>
+                <option value="ks">Kabupaten Sumedang</option>
+                <option value="kbg">Kota Bandung</option>
+                <option value="kci">Kota Cimahi</option>
+            </select></br>
+
+            <label for="p">Provinsi:</label><br>
+            <select id="p"> name="p"
+                <option value="jb">Jawa Barat</option>
+                <option value="jt">Jawa Tengah</option>
+                <option value="jm">Jawa Timur</option>
+                <option value="dj">DKI Jakarta</option>
+            </select></br>
+            
+            <table for="kp">Kode Pos:</table>
+            <input type="text" id="kp" name="kp" value=""><br>
+        </fieldset>
+
+    <form action="">
+        <fieldset style="margin-bottom: 40px;">
+            <legend>KONTAK</legend>  
+            <table for="np">No Telepon:</table>
+            <input type="tel" id="np" name="np" value=""><br>
+
+            <table for="e">Email:</table>
+            <input type="email" id="np" name="np" value=""><br>
+
+            <table for="un">Username:</table>
+            <input type="text" id="un" name="un" value=""><br>
+
+            <table for="p">Password:</table>
+            <input type="password" id="p" name="p" value=""><br>
+
+            <table for="kp">Konfirmasi Password:</table>
+            <input type="password" id="kp" name="kp" value=""><br>
+        </fieldset>
+
+        <form action="">
+            <fieldset style="margin-bottom: 40px;">
+            <legend>EKSTRAKULIKULER</legend>
+               <table for="ekskul"> Pilihan Ekstrakulikuler:</table><br>
+               <input type="checkbox" id="ekskul" name="ekskul" value="">
+               <label for="P">Paskibra</label><br>
+               <input type="checkbox" id="p" name="p" value="">
+               <label for="Pa">Pramuka</label><br>
+               <input type="checkbox" id="pa" name="pa" value="">
+               <label for="Pmr">Palang Merah Remaja</label><br>
+               <input type="checkbox" id="p" name="p" value="">
+               <label for="Ps">Paduan Suara</label><br>
+               <input type="checkbox" id="p" name="p" value="">
+               <label for="Pt">Seni Tari</label><br>
+               <input type="checkbox" id="p" name="p" value="">
+               <label for="Pn">Sastra Sunda</label><br>
+               <input type="checkbox" id="p" name="p" value="">
+               <label for="Pc">English Club</label><br>
+               <input type="checkbox" id="p" name="p" value="">
+               <label for="irm">Ikatan Remaja Masjid</label><br>
+               <input type="checkbox" id="p" name="p" value="">
+               <label for="sk">Sispakala</label><br>
+               <input type="checkbox" id="p" name="p" value="">
+               <label for="r">Renang</label><br>
+               <input type="checkbox" id="p" name="p" value="">
+               <label for="b">Basket</label><br>
+               <input type="checkbox" id="p" name="p" value="">
+               <label for="bm">Badminton</label><br>
+               <input type="checkbox" id="p" name="p" value="">
+               <label for="f">Futsal</label><br>
+               <input type="checkbox" id="p" name="p" value="">
+               <label for="v">Voli</label><br>
+               <input type="checkbox" id="p" name="p" value="">
+               <label for="tw">Teakwondo</label><br>
+        </fieldset>
+
+        <form action="">
+            <fieldset style="margin-bottom: 40px;">
+            <legend>UPLOD PERSYARATAN</legend>
+            <table for="foto">Uplod Pas Foto 3 × 4:</table>
+            <input type="file" id="foto" name="foto"><br>
+            <table for="kartu">Uplod Kartu Pelajar:</table>
+            <input type="file" id="kartu" name="kartu"><br>
+            </fieldset>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+   <!-- foother selesai -->
+<div class="bg-foother">
+<b>Hak Cipta Anisa Stevani 2024</b>
+</div>
+   <!-- foother selesai -->
+</body>
+</html> 
